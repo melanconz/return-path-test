@@ -1,13 +1,16 @@
-#Return Path Challenge Application
+Return Path Challenge Application
+=====================================
 An application used for dynamically organizing email senders
 
 To run this application locally, clone this repository. In a terminal, change to this directory.
 Then run `$serve -s build` in the command line.
 
-#Web Page
+Web Page
+=====================================
 [Heroku](https://return-path-challenge.herokuapp.com)
 
-#How To Use
+How To Use
+=====================================
 This application offers the ability to move different email senders to separate folders
 for organization.
 
