@@ -97,7 +97,7 @@ class EmailRow extends Component {
              <option value="Entertainment">Entertainment</option>
              <option value="Social Networking">Social Networking</option>
              <option value="News">News</option>
-             <option value="Social Networking">Shopping</option>
+             <option value="Shopping">Shopping</option>
              <option value="Education">Education</option>
              <option value="Jobs">Jobs</option>
            </select>
