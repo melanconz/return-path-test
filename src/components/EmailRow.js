@@ -81,7 +81,7 @@ class EmailRow extends Component {
          <td className="table-data data">
            {email}
          </td>
-         <td className="table-data data data-row-tab" style={borderStyling}>
+         <td className="table-data data" style={borderStyling}>
            <select
              className="dropdownitem"
              value={this.state.folder}
