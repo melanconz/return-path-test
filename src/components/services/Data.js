@@ -1,8 +1,5 @@
-import React, {Component} from 'react';
-
-class Data extends Component {
-	var EMAILS =
-    [
+const Data = {
+    EMAILS: [
         {
             "organize": true,
             "sender": "Dach Group",
@@ -724,7 +721,7 @@ class Data extends Component {
             "email": "Stanton_Jast@yahoo.com",
             "folder": "Shopping"
         }
-    ];
-}
+    ]
+};
 
-export default FilterableTable;
+export default Data;

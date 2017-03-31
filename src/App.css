@@ -7,20 +7,22 @@
 }
 
 .FilterTable-header {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #e0e0e0;
 }
 
 .FilterTable-header.form {
-  display: -webkit-flex;
+  margin-left: 0;
+  padding-left: 0;
   display: flex;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
 }
 
 .FilterTable-header.dropdownitem {
-  margin-right: 20vw;
+  margin-right: 15vw;
+  margin-left: 1vw;
   background-color: #f5f5f5;
+  width: 15%;
 }
 
 .FilterTable-header.searchitem {
@@ -84,20 +86,15 @@
 
 .table-data.data{
   background-color: #ffffff;
+  width: 25%;
 }
 
-.table-data.data.data-row-tab:before {
-  z-index:-1;
-  top:0;
-  left:0;
-  width:10%;
-  height:100%;
-  content:"";
-  background-color: #c5e1a5;
-}
+/*.table-data.data.data-row-tab {
+  border-right: thick solid #c5e1a5;
+}*/
 
 .table-organize {
-  padding-right: 20px;
-  padding-left: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
   text-align: center;
 }

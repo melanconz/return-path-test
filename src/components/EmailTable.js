@@ -2,15 +2,21 @@ import React, {Component} from 'react';
 import EmailRow from './EmailRow.js';
 
 class EmailTable extends Component {
+
   render() {
     var rows = [];
+    var filterText = this.props.filterText.toUpperCase();
+    var filterOption = this.props.option;
     this.props.emails.forEach((email) => {
       var sender = email.sender.toUpperCase();
-      var filterText = this.props.filterText.toUpperCase();
+      var folder = email.folder;
       if (sender.indexOf(filterText) === -1) {
         return;
       }
-      rows.push(<EmailRow email={email} key={email.email}/ >);
+      if(folder !== filterOption && filterOption !== "Show All"){
+        return;
+      }
+      rows.push(<EmailRow email={email} key={email.email} / >);
     });
     return (
         <table>

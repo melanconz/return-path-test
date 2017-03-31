@@ -7,7 +7,7 @@ body {
 
 input[type="text"] {
   margin: 0;
-  width: 100%;
+  width: 40%;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   appearance: none;
@@ -29,14 +29,17 @@ select {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 7px;
-    width: 190px;
+    width: 100%;
 }
 
 table {
   border: 1;
   width: 100%;
+  border-spacing: 0 23px;
+  padding-right: 10px;
 }
 
 tr {
   padding: 10px;
+  width: 50%;
 }
