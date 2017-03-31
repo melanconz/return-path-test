@@ -7,7 +7,7 @@ Then run `$serve -s build` in the command line.
 
 Web Page
 =====================================
-[Heroku](https://return-path-challenge.herokuapp.com)
+[Return Path Challenge](https://return-path-challenge.herokuapp.com)
 
 How To Use
 =====================================
